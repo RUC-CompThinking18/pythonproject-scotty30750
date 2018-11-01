@@ -5,6 +5,9 @@ def openfile():
     for i in range (40):
 #will spit out lines 0 to 40
         print i
+def raw_input(qf.txt):
+    print qf.txt
+#added rawinput fucntion to provide interaction with my ocean_quiz
 openfile()
 def ocean_quiz(question, true_false, fact):
     print question
