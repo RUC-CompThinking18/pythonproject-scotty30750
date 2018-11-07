@@ -1,0 +1,5 @@
+You have the basic flow of the program down, and I think you have a lot here to work with. I think we need to have a conversation in-person about how reconfigure some things to accomplish your goals. Revisit the Montfort section on how raw_input works in order to get the most out of our in-person conversations. Also recall that the assignment asks for a full introductory comment on the function you choose to write that explains not just what it does and why and where it fits into the larger scheme of your project. You provide some of this, but be sure to give me the *why* in addition to the what. Try to come to our next meeting with a written outline of what you want your program to do: first, it should
+
+Stray concerns
+You're defining raw_input as a function right now: that's built in and will throw an error.
+You're going to need to store the user's input in a variable as well. Right now, you're asking for it but not capturing it.
