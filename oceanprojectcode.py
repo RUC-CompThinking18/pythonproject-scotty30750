@@ -5,9 +5,19 @@ def openfile():
     for i in range (40):
 #will spit out lines 0 to 40
         print i
-def raw_input(qf.txt):
-    print qf.txt
-#added rawinput fucntion to provide interaction with my ocean_quiz
+questions = (qf.txt)
+def ask_questions(questions):
+    item = qf.txt.random(list(questions.items()))
+    question = item[0]
+    (variants, answer) = item[1]
+    print (question, variants)
+    attempt = input("\nHit \'T\, \'F\n")
+    return (attempt, answer)
+#added ask questions function so my quiz can recieve input and be interactive
+#quiz takers will have a choice between true and false questions
+score = 0
+wrong = True
+if string == raw_input
 openfile()
 def ocean_quiz(question, true_false, fact):
     print question
