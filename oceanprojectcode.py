@@ -7,9 +7,10 @@
         print i"""
 
 print "Welcome to Scott's Ocean Pollution Quiz !"
-print "This quiz contains twenty true/false questions."
+print "This quiz contains twenty true/false statements."
+print "Earths oceans are heavily polluted, it's time to take a stand against pollution"
 name = raw_input('Type your name here:')
-print 'Lets get started, ' + name + '!'
+print 'Lets save our oceans, ' + name + '!'
 
 class Question:
     def __init__(self, question, answer, fact):
@@ -60,7 +61,7 @@ Question_20 =("Dumping sewage into the ocean isn't a big deal.", "false", "Till 
 def game_loop():
     question_count = 0
     while question_count < 20:
-    print "Question" + str(question_count + 1) + ":\n"
+        print "Question" + str(question_count + 1) + ":\n"
     first_choice = ask_question(question_count)
     answer = raw_input("\nHit \'T\, \'F\n").lower()
     if answer == first_choice[0]:
@@ -78,14 +79,14 @@ def ask_question(question):
         ask_question(question)
         print question_1
         input = raw_input()
-        if input == question_1.answer
+        if input == question_1.answer:
             print question_1.fact
-            if input =! question_1.answer
-            print question_1.fact
+            if input != question_1.answer:
+                print question_1.fact
 #for loop
 
 '''
-'''questions = (qf.txt)
+questions = (qf.txt)
 def ask_questions(questions):
     item = qf.txt.random(list(questions.items()))
     question = item[0]
