@@ -6,7 +6,7 @@
 #will spit out lines 0 to 40
         print i"""
 
-print "Welcome to the Ocean Pollution Quiz"
+print "Welcome to Scott's Ocean Pollution Quiz !"
 print "This quiz contains twenty true/false questions."
 name = raw_input('Type your name here:')
 print 'Lets get started, ' + name + '!'
@@ -78,6 +78,8 @@ def ask_question(question):
         print Question_1
         raw_input()
         if input == Question_1.answer
+        print Question_1.fact
+        if input =! Question_1.answer
         print Question_1.fact
 #for loop
 
