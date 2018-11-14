@@ -6,6 +6,8 @@ def openfile():
 #will spit out lines 0 to 40
         print i
 
+print "True and False Ocean Quiz"
+
 class Question:
     def __init__(self, question, answer, fact):
         self.question = question
